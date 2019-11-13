@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polecenie1", "Polecenie1\Polecenie1.csproj", "{AB4BA951-CBF7-4DFC-8CAC-7F8413AF0D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polecenie2", "Polecenie2\Polecenie2.csproj", "{D71889F4-9BAA-4F4C-B07A-3360B42AF5C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB4BA951-CBF7-4DFC-8CAC-7F8413AF0D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4BA951-CBF7-4DFC-8CAC-7F8413AF0D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4BA951-CBF7-4DFC-8CAC-7F8413AF0D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4BA951-CBF7-4DFC-8CAC-7F8413AF0D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71889F4-9BAA-4F4C-B07A-3360B42AF5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71889F4-9BAA-4F4C-B07A-3360B42AF5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71889F4-9BAA-4F4C-B07A-3360B42AF5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71889F4-9BAA-4F4C-B07A-3360B42AF5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
