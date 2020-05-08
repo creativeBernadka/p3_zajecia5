@@ -6,12 +6,15 @@ namespace Polecenie1
     {
         static void Main(string[] args)
         {
-            string[,,] warehouse= new string[3,6,10];
-            for (int i = 0; i < 3; i++)
+            int a = 3;
+            int b = 6;
+            int c = 10;
+            string[,,] warehouse= new string[a,b,c];
+            for (int i = 0; i < a; i++)
             {
-                for (int j = 0; j < 6; j++)
+                for (int j = 0; j < b; j++)
                 {
-                    for (int k = 0; k < 10; k++)
+                    for (int k = 0; k < c; k++)
                     {
                         warehouse[i, j, k] = "Potop";
                     }
@@ -22,11 +25,11 @@ namespace Polecenie1
             Console.WriteLine("Podaj szukany tytul:");
             string title = Console.ReadLine();
             
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < a; i++)
             {
-                for (int j = 0; j < 6; j++)
+                for (int j = 0; j < b; j++)
                 {
-                    for (int k = 0; k < 10; k++)
+                    for (int k = 0; k < c; k++)
                     {
                         if (warehouse[i, j, k] == title)
                         {
