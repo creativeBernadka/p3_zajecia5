@@ -18,12 +18,15 @@ namespace Polecenie2
     {
         static void Main(string[] args)
         {
-            Book[,,] warehouse = new Book[3,6,10];
-            for (int i = 0; i < 3; i++)
+            int a = 3;
+            int b = 6;
+            int c = 10;
+            Book[,,] warehouse = new Book[a,b,c];
+            for (int i = 0; i < a; i++)
             {
-                for (int j = 0; j < 6; j++)
+                for (int j = 0; j < b; j++)
                 {
-                    for (int k = 0; k < 10; k++)
+                    for (int k = 0; k < c; k++)
                     {
                         warehouse[i, j, k] = new Book("Potop", "Henryk Sienkiewicz");
                     }
@@ -34,11 +37,11 @@ namespace Polecenie2
             warehouse[1, 3, 7].Author = "Andrzej Sapkowski";
             Console.WriteLine("Podaj szukana fraze:");
             string phrase = Console.ReadLine();
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < a; i++)
             {
-                for (int j = 0; j < 6; j++)
+                for (int j = 0; j < b; j++)
                 {
-                    for (int k = 0; k < 10; k++)
+                    for (int k = 0; k < c; k++)
                     {
                         if ((warehouse[i, j, k].Title == phrase) || (warehouse[i, j, k].Author.Contains(phrase)))
                         {
